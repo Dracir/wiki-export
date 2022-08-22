@@ -1,0 +1,17 @@
+{
+	"configurations": [
+		{
+			"name": ".NET Core Launch (console)",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${workspaceFolder}/bin/Debug/net6.0/wiki-export.dll",
+			"args": [
+				"https://en.wikipedia.org/wiki/Special:Export/List_of_cognitive_biases"
+			],
+			"cwd": "${workspaceFolder}",
+			"stopAtEntry": false,
+			"console": "internalConsole"
+		}
+	]
+}
